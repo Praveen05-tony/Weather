@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/de5c5778af.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <input id="txt" type="text" placeholder="Enter the location">
+            <button onclick="apicall()">Search</button>
+        </div>
+        <div class="content">
+            <div class="left">
+                <div class="box1">
+                    <div class="box1-left">
+                        <h1 id="txt1"></h1>
+                        <p id="txt2"></p>
+                        <h1 id="txt3"></h1>
+                    </div>
+                    <div class="box1-right">
+                        <img src="" alt="" id="pic">
+                    </div>
+                </div>
+
+                <div class="box2">
+                    <p>TODAY'S FORECAST</p>
+                    <div class="today">
+                        <div class="time1">
+                            <h3 id="txt9"></h3>
+                            <h2 id="txt10"></h2>
+                            <img src="" alt="">
+                        </div>
+                        <div class="time2">
+                            <h3 id="txt11"></h3>
+                            <h2 id="txt12"></h2>
+                            <img src="" alt="">
+                        </div>
+                        <div class="time3">
+                            <h3 id="txt13"></h3>
+                            <h2 id="txt14"></h2>
+                            <img src="" alt="">
+                        </div>
+                        <div class="time4">
+                            <h3 id="txt15"></h3>
+                            <h2 id="txt16"></h2>
+                            <img src="" alt="">
+                        </div>
+                        <div class="time5">
+                            <h3 id="txt17"></h3>
+                            <h2 id="txt18"></h2>
+                            <img src="" alt="">
+                        </div>
+                        <div class="time6">
+                            <h3 id="txt19"></h3>
+                            <h2 id="txt20"></h2>
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box3">
+                    <p>AIR CONDITIONS</p>
+                    <div class="weather">
+                        <div class="pressure">
+                            <i class="fa-solid fa-temperature-three-quarters"></i>
+                            <span>Pressure</span>
+                            <h2 id="txt4"></h2>
+                        </div>
+                        <div class="humidity">
+                            <i class="fa-solid fa-droplet"></i>
+                            <span>Humidity</span>
+                            <h2 id="txt5"></h2>
+                        </div>
+                        <div class="wind">
+                            <i class="fa-solid fa-wind"></i>
+                            <span>Wind Speed</span>
+                            <h2 id="txt6"></h2>
+                        </div>
+                        <div class="sea">
+                            <i class="fa-solid fa-water"></i>
+                            <span>Sea Level</span>
+                            <h2 id="txt7"></h2>
+                        </div>
+                        <div class="ground">
+                            <i class="fa-solid fa-sun"></i>
+                            <span>Ground Level</span>
+                            <h2 id="txt8"></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="box4">
+                    <p>6-DAY FORECAST</p>
+                    <div class="day">
+                        <div class="day1">
+                            <p id="txt21"></p>
+                            <div class="image">
+                                <img src="./img/cloudy.png" alt="">
+                                <p id="txt22"></p>
+                            </div>
+                            <h3 id="txt23"></h3>
+                        </div>
+                        <div class="day1">
+                            <p id="txt24"></p>
+                            <div class="image">
+                                <img src="./img/cloudy.png" alt="">
+                                <p id="txt25"></p>
+                            </div>
+                            <h3 id="txt26"></h3>
+                        </div>
+                        <div class="day1">
+                            <p id="txt27"></p>
+                            <div class="image">
+                                <img src="./img/cloudy.png" alt="">
+                                <p id="txt28"></p>
+                            </div>
+                            <h3 id="txt29"></h3>
+                        </div>
+                        <div class="day1">
+                            <p id="txt30"></p>
+                            <div class="image">
+                                <img src="./img/cloudy.png" alt="">
+                                <p id="txt31"></p>
+                            </div>
+                            <h3 id="txt32"></h3>
+                        </div>
+                        <div class="day1">
+                            <p id="txt33"></p>
+                            <div class="image">
+                                <img src="./img/cloudy.png" alt="">
+                                <p id="txt34"></p>
+                            </div>
+                            <h3 id="txt35"></h3>
+                        </div>
+                        <div class="day1">
+                            <p id="txt36"></p>
+                            <div class="image">
+                                <img src="./img/cloudy.png" alt="">
+                                <p id="txt37"></p>
+                            </div>
+                            <h3 id="txt38"></h3>
+                        </div>
+                        <!-- <div class="day1">
+                            <p id="txt39"></p>
+                            <div class="image">
+                                <img src="./img/cloudy.png" alt="">
+                                <p id="txt40"></p>
+                            </div>
+                            <h3 id="txt41"></h3>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

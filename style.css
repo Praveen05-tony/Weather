@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2E3545;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+}
+
+.container{
+    height: 750px;
+    width: 1200px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #0C121F;
+}
+
+input{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+    background-color: #202C3C;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+button{
+    padding: 9px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #202C3C;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.content{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.content .left{
+    width: 65%;
+}
+
+.content .right{
+    width: 33%;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 230px;
+}
+
+.box1 :nth-child(2){
+    margin-top: 10px;
+}
+
+.box1 :last-child{
+    margin-top: 10px;
+    font-size: 50px;
+    color: #ffaa48;
+}
+
+.box1-right img{
+    height: 200px;
+}
+
+.box2{
+    height: 215px;
+    width: 100%;
+    background-color: #202C3C;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.box3{
+    height: 208px;
+    width: 100%;
+    background-color: #202C3C;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.box4{
+    height: 650px;
+    width: 100%;
+    background-color: #202C3C;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.today{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.today img{
+    height: 50px;
+    margin-top: 20px;
+}
+
+.today h2{
+    margin-top: 20px;
+    color: #ffaa48;
+}
+
+.weather{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather h2{
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #ffaa48;
+}
+
+.weather i{
+    font-size: 20px;
+}
+
+.day .image{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.day .image img{
+    height: 50px;
+}
+
+.day1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.day{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95%;
+}
+
+.day h3{
+    color: #ffaa48;
+}
